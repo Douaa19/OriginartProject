@@ -1,0 +1,9 @@
+.contact-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-us .container {
+    width: 60%;
+}
