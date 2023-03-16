@@ -49,6 +49,7 @@
     font-size: 18px;
     margin-bottom: 26px;
     border: 1px solid #FFFFFF;
+    outline: none;
 }
 
 .contact-us .container .form form .btn {
