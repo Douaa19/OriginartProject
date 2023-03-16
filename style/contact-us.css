@@ -2,8 +2,46 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    background-color: #111111;
 }
 
 .contact-us .container {
-    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.contact-us .container .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-us .container .form h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 28px 0;
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid #FFFFFF;
+    width: max-content;
+    font-size: 32px;
+}
+
+.contact-us .container form input, textarea {
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: none;
+    background-color: #111111;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 26px;
+    border: 1px solid #FFFFFF;
 }
