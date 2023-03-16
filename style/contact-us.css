@@ -4,11 +4,15 @@
     flex-direction: column;
     align-items: center;
     background-color: #111111;
+    border-top: 4px solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
 }
 
 .contact-us .container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 20px 0;
 }
 
@@ -17,9 +21,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 5rem;
 }
 
-.contact-us .container .form h1 {
+.contact-us .container h1 {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Montserrat';
@@ -35,7 +40,7 @@
 .contact-us .container form input, textarea {
     width: 100%;
     padding: 12px 8px;
-    border-radius: none;
+    border-radius: 0px;
     background-color: #111111;
     color: #FFFFFF;
     text-transform: capitalize;
@@ -44,4 +49,91 @@
     font-size: 18px;
     margin-bottom: 26px;
     border: 1px solid #FFFFFF;
+}
+
+.contact-us .container .form form .btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+/* 5 */
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: #000000;
+  background: linear-gradient(0deg, #000000 0%, #111111 100%);
+  }
+  .btn-5:hover {
+    color: #FFFFFF;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FFFFFF;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:400ms ease all;
+  }
+
+.contact-us .container .follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.contact-us .container .follow-us .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-us .container .icons a {
+    text-decoration: none;
 }

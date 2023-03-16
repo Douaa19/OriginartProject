@@ -21,6 +21,7 @@ header nav {
     align-items: center;
     width: 90%;
     padding: 10px 0;
+    border-bottom: 4px solid #FFFFFF;
 }
 
 header nav .logo img {
@@ -46,6 +47,8 @@ header .hero-header {
     height: 90vh;
     z-index: 0;
     background-color: #1F1F1F;
+    border-bottom: 4px solid #FFFFFF;
+    border-top: 4px solid #FFFFFF;
 }
 
 .img1 {
