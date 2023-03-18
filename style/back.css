@@ -1,0 +1,34 @@
+.text-back {
+    height: 75vh;
+    width: 100%;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-back h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.text-back p {
+    font-size: 18px;
+}
+
+.text-back a {
+    text-decoration: none;
+    color: yellow;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.text-back a:hover {
+    letter-spacing: 1px;
+}

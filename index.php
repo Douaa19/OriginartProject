@@ -36,7 +36,7 @@
       <div class="container">
         <div class="form">
           <h1>contact us</h1>
-          <form action="email.php" method="POST">
+          <form action="./email.php" method="post">
             <div class="name">
               <input type="text" name="name" placeholder="name" />
             </div>
@@ -56,7 +56,7 @@
               ></textarea>
             </div>
             <div class="btn">
-                <button type="submit" class="custom-btn btn-5">submit</button>
+                <button type="submit" name="submit" class="custom-btn btn-5">submit</button>
             </div>
           </form>
         </div>
