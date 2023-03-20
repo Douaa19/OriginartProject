@@ -43,7 +43,6 @@
     border-radius: 0px;
     background-color: #111111;
     color: #FFFFFF;
-    text-transform: capitalize;
     font-family: 'Montserrat';
     font-weight: 200;
     font-size: 18px;
@@ -137,4 +136,12 @@
 
 .contact-us .container .icons a {
     text-decoration: none;
+}
+
+.contact-us .container .form form .error-message {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
