@@ -19,19 +19,12 @@
         <span>Contact</span>
       </div>
     </nav>
-    <!-- <div class="hero-header">
-        <div class="scrolling_img">
-          <img class="img1" src="./images/33-02.jpg" alt="" /> -->
-    <!-- <img class="img2" src="./images/A4 hikayat.jpg" alt="" /> -->
-    <!-- <img
-            class="img3"
-            src="./images/Affiche A4 blfan Final-02.jpg"
-            alt=""
-          /> -->
-    <!-- <img class="img4" src="./images/affiche B_LFEN 2.jpg" alt="" /> -->
-    <!-- <img class="img5" src="./images/affiche f.jpg" alt="" />
-          <img class="img6" src="./images/AFFICHE.jpg" alt="" /> -->
-    </div>
+    <div class="hero-header">
+      <div class="scrolling_img">
+        <div class="image1">
+          <img class="img1" src="./images/33-02.jpg" alt="" />
+        </div>
+      </div>
     </div>
   </header>
   <section class="contact-us">

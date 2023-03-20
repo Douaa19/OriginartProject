@@ -46,26 +46,31 @@ header .hero-header {
     height: 90vh;
     z-index: 0;
     background-color: #1F1F1F;
-    border-bottom: 4px solid #FFFFFF;
     border-top: 4px solid #FFFFFF;
-}
-
-.img1 {
-    /* -webkit-animation: mover infinite alternate;
-    animation: mover 2s infinite; */
-    width: 20%;
     position: relative;
-    left: 5%;
-    top: 90%;
 }
 
-@-webkit-keyframes mover {
-    0% { transform: translateY(1000); }
-    100% { transform: translateY(-1550px); }
+.scrolling_img {
+    position: relative;
 }
+
+.image1 .img1 {
+    width: 20%;
+    position: absolute;
+    -webkit-animation: mover 0s infinite;
+    animation: mover 4s infinite;
+    bottom: -110vh;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
 @keyframes mover {
-    0% { transform: translateY(600); }
-    100% { transform: translateY(-1550px); }
+    100% { transform: translateY(-110vh); }
 }
 
 
