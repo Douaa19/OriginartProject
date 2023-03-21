@@ -16,7 +16,7 @@
     <nav>
       <img src="./images/Or logo-white.svg" alt="">
       <div class="link">
-        <span>Contact</span>
+        <a href="#contact-us"><span>Contact</span></a>
       </div>
     </nav>
     <div class="hero-header">
@@ -28,8 +28,8 @@
     </div>
   </header>
   <section class="contact-us">
-    <div class="container">
-      <div class="form">
+    <div class="container" id="contact-us">
+      <div class=" form">
         <h1>contact us</h1>
         <form action="./email.php" method="post">
           <div class="error-message">
