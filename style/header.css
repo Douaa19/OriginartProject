@@ -48,109 +48,22 @@ header nav .link:hover {
 
 header .hero-header {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: #1F1F1F;
     border-top: 4px solid #FFFFFF;
     position: relative;
 }
 
-.scrolling_img {
-    position: relative;
+.scrolled-images{
+    display:flex;
+    overflow:hidden;
+    height: 100%;
+    position:relative;
+    width: 100%;
 }
 
-.image1 .img1 {
-    width: 20%;
-    position: absolute;
-    /* -webkit-animation: mover 0s infinite; */
-    animation: mover 4s infinite;
-    bottom: -110vh;
-    z-index: -1;
+marquee {
+    width: fit-content;
+    position:absolute;
+    height: inherit;
 }
-
-.image1 {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    z-index: 0;
-    /* overflow: hidden; */
-}
-
-@keyframes mover {
-    100% { transform: translateY(-110vh); }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .img2 {
-    -webkit-animation: mover 1s infinite;
-    animation: mover 6s infinite;
-    width: 20%;
-    position: absolute;
-    left: 15%;
-    bottom: -70%;
-}
-
-.img3 {
-    -webkit-animation: mover 30s infinite alternate;
-    animation: mover 30s infinite;
-    width: 20%;
-    position: absolute;
-    left: 70%;
-    bottom: -105%;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(1000); }
-    100% { transform: translateY(-1550px); }
-}
-@keyframes mover {
-    0% { transform: translateY(600); }
-    100% { transform: translateY(-1550px); }
-}
-
-.img4 {
-    -webkit-animation: mover 50s infinite alternate;
-    animation: mover 50s infinite;
-    width: 20%;
-    position: absolute;
-    left: 50%;
-    bottom: -105%;
-    z-index: -1;
-} */

@@ -20,12 +20,56 @@
       </div>
     </nav>
     <div class="hero-header">
-      <div class="scrolling_img">
-        <div class="image1">
-          <img class="img1" src="./images/33-02.jpg" alt="" />
-        </div>
+      <div class="scrolled-images">
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 20%;">
+          <img src="./images/33-02.jpg" style="width: 50%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 2%;">
+          <img src="./images/A4 hikayat.jpg" style="width: 20%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 80%;">
+          <img src="./images/Affiche A4 blfan Final-02.jpg" style="width: 90%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="1" style="left: 50%;">
+          <img src="./images/affiche B_LFEN 2.jpg" style="width: 50%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 35%;">
+          <img src="./images/affiche f.jpg" style="width: 55%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 5%;">
+          <img src="./images/AFFICHE.jpg" style="width: 25%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 18%;">
+          <img src="./images/Alwan Poster aout-02.jpg" style="width: 25%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 15%;">
+          <img src="./images/Artb 2.png" style="width: 25%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 58%;">
+          <img src="./images/Artb1.png" style="width: 42%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 80%;">
+          <img src="./images/Artbo 3.png" style="width: 85%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 75%;">
+          <img src="./images/Artboard 1.png" style="width: 80%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 72%;">
+          <img src="./images/Artboard 2.png" style="width: 50%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="1" style="left: 20%;">
+          <img src="./images/Artboard 3.png" style="width: 35%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 33%;">
+          <img src="./images/blfan copy.jpg" style="width: 50%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 44%;">
+          <img src="./images/Hikayat.png" style="width: 50%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 1%;">
+          <img src="./images/illustration1 .jpg" style="width: 25%;" alt="Natural" />
+        </marquee>
       </div>
-    </div>
   </header>
   <section class="contact-us">
     <div class="container" id="contact-us">
