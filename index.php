@@ -106,10 +106,11 @@
       <div class="follow-us">
         <h1>follow us</h1>
         <div class="icons">
-          <a href="/"><img src="./images/icons/icons8-facebook.svg" alt=""></a>
-          <a href="/"><img src="./images/icons/icons8-instagram-vieux-logo.svg" alt=""></a>
-          <a href="/"><img src="./images/icons/icons8-linkedin-2.svg" alt=""></a>
-          <a href="/"><img src="./images/icons/icons8-youtube-encadré.svg" alt=""></a>
+          <a href="https://www.facebook.com/0riginart"><img src="./images/icons/icons8-facebook.svg" alt=""></a>
+          <a href="https://www.instagram.com/0rigin_art"><img src="./images/icons/icons8-instagram-vieux-logo.svg"
+              alt=""></a>
+          <a href="https://www.linkedin.com/in/0riginart/"><img src="./images/icons/icons8-linkedin-2.svg" alt=""></a>
+          <a href="https://www.youtube.com/@0riginart/"><img src="./images/icons/icons8-youtube-encadré.svg" alt=""></a>
         </div>
       </div>
     </div>
