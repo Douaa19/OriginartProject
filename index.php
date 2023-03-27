@@ -54,7 +54,7 @@
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 42%;">
           <img src="./images/Hikayat.png" style="width: 35%;" alt="Natural" />
         </marquee>
-        <!-- <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 22%;">
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 22%;">
           <img src="./images/MAC.png" style="width: 35%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 115%;">
@@ -62,7 +62,7 @@
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 1%;">
           <img src="./images/poster Qrayathon 3 .jpg" style="width: 24%;" alt="Natural" />
-        </marquee> -->
+        </marquee>
       </div>
   </header>
   <section class="contact-us">
