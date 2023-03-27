@@ -126,6 +126,7 @@
     justify-content: center;
     color: #FFFFFF;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .contact-us .container .follow-us .icons {
@@ -136,6 +137,12 @@
 
 .contact-us .container .icons a {
     text-decoration: none;
+    transition: all .5s;
+}
+
+.contact-us .container .follow-us .icons a:hover {
+    transition: all .5s;
+    transform: translateY(-5px);
 }
 
 .contact-us .container .form form .error-message {
