@@ -66,7 +66,7 @@
         </marquee>
       </div>
       <div class="shadow-section">
-        <div class="contenet">
+        <div class="content">
           <div class="text one">
             <h2>Hello Text One</h2>
           </div>

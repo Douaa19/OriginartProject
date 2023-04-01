@@ -54,6 +54,19 @@ header .hero-header {
     position: relative;
 }
 
+.shadow-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
 .scrolled-images{
     display:flex;
     overflow:hidden;
@@ -66,17 +79,4 @@ marquee {
     width: fit-content;
     position:absolute;
     height: inherit;
-}
-
-.container .hero-header .shadow-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background-color: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
 }
