@@ -66,16 +66,16 @@
         </marquee>
       </div>
       <div class="shadow-section">
-        <div class="content">
-          <div class="word">
-            Hello Text One
-          </div>
-          <div class="word">
-            Hello Text Two
-          </div>
-          <div class="word">
-            Hello Text Tree
-          </div>
+      </div>
+      <div class="content">
+        <div class="word">
+          Hello Text One
+        </div>
+        <div class="word">
+          Hello Text Two
+        </div>
+        <div class="word">
+          Hello Text Tree
         </div>
       </div>
     </div>
