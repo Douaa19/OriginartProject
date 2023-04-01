@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./style/header.css" />
   <link rel="stylesheet" href="./style/contact-us.css" />
   <link rel="stylesheet" href="./style/footer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <title>Document</title>
 </head>
 
@@ -39,17 +40,17 @@
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 8%;">
           <img src="./images/agadir cultures.png" style="width: 25%;" alt="Natural" />
         </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%;">
+          <img src="./images/Heritages .png" style="width: 58%;" alt="Natural" />
+        </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 67%;">
-          <img src="./images/7O4A0376.JPG" style="width: 55%;" alt="Natural" />
+          <img src="./images/7O4A0376.JPG" style="width: 90%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 80%;">
           <img src="./images/artwork.png" style="width: 100%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 45%;">
-          <img src="./images/Copie de Post birthday 6 nov.jpg" style="width: 40%;" alt="Natural" />
-        </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%;">
-          <img src="./images/Heritages .png" style="width: 58%;" alt="Natural" />
+          <img src="./images/Copie de Post birthday 6 nov.jpg" style="width: 50%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 42%;">
           <img src="./images/Hikayat.png" style="width: 35%;" alt="Natural" />
@@ -57,13 +58,27 @@
         <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 22%;">
           <img src="./images/MAC.png" style="width: 35%;" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 115%;">
+        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 15%;">
           <img src="./images/opm.jpg" style="width: 58%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 1%;">
-          <img src="./images/poster Qrayathon 3 .jpg" style="width: 24%;" alt="Natural" />
+          <img src="./images/poster Qrayathon 3 .jpg" style="width: 30%;" alt="Natural" />
         </marquee>
       </div>
+      <div class="shadow-section">
+        <div class="contenet">
+          <div class="text one">
+            <h2>Hello Text One</h2>
+          </div>
+          <div class="text two">
+            <h2>Hello Text Two</h2>
+          </div>
+          <div class="text tree">
+            <h2>Hello Text Tree</h2>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <section class="contact-us">
     <div class="container" id="contact-us">
@@ -100,11 +115,10 @@
       <div class="follow-us">
         <h1>follow us</h1>
         <div class="icons">
-          <a href="https://www.facebook.com/0riginart"><img src="./images/icons/icons8-facebook.svg" alt=""></a>
-          <a href="https://www.instagram.com/0rigin_art"><img src="./images/icons/icons8-instagram-vieux-logo.svg"
-              alt=""></a>
-          <a href="https://www.linkedin.com/in/0riginart/"><img src="./images/icons/icons8-linkedin-2.svg" alt=""></a>
-          <a href="https://www.youtube.com/@0riginart/"><img src="./images/icons/icons8-youtube-encadré.svg" alt=""></a>
+          <a href="https://www.facebook.com/0riginart"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/0rigin_art"><i class="fab fa-3x fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/0riginart/"><i class="fab fa-3x fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/@0riginart/"><i class="fa-brands fa-3x fa-youtube"></i></a>
         </div>
       </div>
     </div>

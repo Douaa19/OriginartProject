@@ -27,7 +27,6 @@
 .contact-us .container h1 {
     color: #FFFFFF;
     text-align: center;
-    font-family: 'Montserrat';
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 28px 0;
@@ -43,7 +42,6 @@
     border-radius: 0px;
     background-color: #111111;
     color: #FFFFFF;
-    font-family: 'Montserrat';
     font-weight: 200;
     font-size: 18px;
     margin-bottom: 26px;
@@ -53,7 +51,7 @@
 
 .contact-us .container .form form .btn {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -63,7 +61,6 @@
     color: #fff;
     border-radius: 5px;
     padding: 10px 25px;
-    font-family: 'Montserrat';
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
@@ -132,12 +129,19 @@
 .contact-us .container .follow-us .icons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 0;
+}
+
+.contact-us .container .follow-us .icons i {
     width: 100%;
 }
 
 .contact-us .container .icons a {
     text-decoration: none;
     transition: all .5s;
+    color: #FFFFFF;
+    margin: 0 24px 0;
 }
 
 .contact-us .container .follow-us .icons a:hover {
