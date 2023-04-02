@@ -32,6 +32,7 @@ header nav img {
 header nav .link a {
     text-decoration: none;
     color: #FFFFFF;
+    letter-spacing: 2px;
 }
 
 header nav .link {
@@ -91,4 +92,27 @@ header .hero-header .content {
 
 .quotes {
   display: none;
+}
+
+/* 
+THEME
+----------- 
+*/
+
+body {
+  --accent-color: #F0A500;
+  --background-color: white;
+  --text-color: black;
+  --button-text-color: var(--background-color);
+  --transition-delay: 1s;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark {
+  --accent-color: #FFFFFF;
+  --background-color: #1F1F1F;
+  --text-color: white;
+  --button-text-color: #FFFFFF;
 }
