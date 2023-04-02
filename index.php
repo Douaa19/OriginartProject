@@ -68,15 +68,11 @@
       <div class="shadow-section">
       </div>
       <div class="content">
-        <div class="word">
-          Hello Text One
-        </div>
-        <div class="word">
-          Hello Text Two
-        </div>
-        <div class="word">
-          Hello Text Tree
-        </div>
+        <h2 class="quotes">We set you free from routine</h2>
+        <h2 class="quotes">We communicate your values</h2>
+        <h2 class="quotes">We assert your identity</h2>
+        <h2 class="quotes">We tell your story</h2>
+        <h2 class="quotes">Origin'Art</h2>
       </div>
     </div>
   </header>
@@ -138,6 +134,25 @@
       </div>
     </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    (function () {
+      var quotes = $(".quotes");
+      var quoteIndex = -1;
+
+      function showNextQuote() {
+        ++quoteIndex;
+        quotes
+          .eq(quoteIndex % quotes.length)
+          .fadeIn(2000)
+          .delay(2000)
+          .fadeOut(2000, showNextQuote);
+      }
+
+      showNextQuote();
+    })();
+  </script>
 </body>
+
 
 </html>
