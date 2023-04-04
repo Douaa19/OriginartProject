@@ -20,8 +20,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-flow: column;
     margin-bottom: 5rem;
+}
+
+.contact-us .container .form .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    width: 90%;
+}
+
+.contact-us .container .form .content .content-form{
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us .container .form .content .text {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 90%;
+    color: #FFFFFF;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+    text-align: center;
 }
 
 .contact-us .container h1 {

@@ -1,0 +1,40 @@
+body {
+    --accent-color: #f5c45c;
+    --background-color: white;
+    --text-color: rgb(0, 0, 0);
+    --button-text-color: var(--background-color);
+    --transition-delay: 1s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 100vh;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --accent-color: #ffdd00;
+    --background-color: #333;
+    --text-color: #ffffff;
+}
+
+button img {
+    width: 10%;
+}
+
+.theme-toggle-button {
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+}
