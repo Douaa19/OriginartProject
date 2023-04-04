@@ -29,6 +29,9 @@
     </nav>
     <div class="hero-header">
       <div class="scrolled-images">
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%;">
+          <img src="./images/Heritages .png" style="width: 45%;" alt="Natural" />
+        </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 10%;">
           <img src="./images/blfan.png" style="width: 35%;" alt="Natural" />
         </marquee>
@@ -38,22 +41,13 @@
         <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 80%;">
           <img src="./images/18_12.jpg" style="width: 100%;" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 20%;">
-          <img src="./images/33-02.jpg" style="width: 45%;" alt="Natural" />
-        </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 50%;">
           <img src="./images/AFFICHE.jpg" style="width: 55%;" alt="Natural" />
-        </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 8%;">
-          <img src="./images/agadir cultures.png" style="width: 25%;" alt="Natural" />
-        </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%;">
-          <img src="./images/Heritages .png" style="width: 58%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 67%;">
           <img src="./images/7O4A0376.JPG" style="width: 90%;" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 80%;">
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 70%;">
           <img src="./images/artwork.png" style="width: 100%;" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 45%;">
@@ -70,6 +64,12 @@
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 1%;">
           <img src="./images/poster Qrayathon 3 .jpg" style="width: 30%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 12%;">
+          <img src="./images/agadir cultures.png" style="width: 32%;" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 20%;">
+          <img src="./images/33-02.jpg" style="width: 50%;" alt="Natural" />
         </marquee>
       </div>
       <div class="shadow-section">
