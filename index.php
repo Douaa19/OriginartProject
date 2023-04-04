@@ -85,7 +85,6 @@
   <section class="contact-us">
     <div class="container" id="contact-us">
       <div class="form">
-        <h1>contact us</h1>
         <div class="content">
           <div class="content-form">
             <form action="./email.php" method="post">
@@ -117,9 +116,9 @@
             </form>
           </div>
           <div class="text">
-            <p>
-              We're just a click away, ready to hear from you and bring your ideas to life!
-            </p>
+            <span> We're just a click away</span>
+            <span> ready to hear from you</span>
+            <span> & bring your ideas to life!</span>
           </div>
         </div>
 

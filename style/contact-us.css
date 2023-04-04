@@ -13,7 +13,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
+  padding: 24px 0;
 }
 
 .contact-us .container .form {
@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  width: 90%;
+  width: 100%;
 }
 
 .contact-us .container .form .content .content-form {
@@ -40,27 +40,20 @@
 
 .contact-us .container .form .content .text {
   grid-area: 1 / 1 / 2 / 2;
-  width: 81%;
+  width: 100%;
   color: #ffffff;
-  font-size: 44px;
+  font-size: 42px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+  flex-flow: column;
   line-height: 2;
-  text-align: justify;
   text-transform: uppercase;
 }
 
-.contact-us .container h1 {
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 0 0 28px 0;
-  padding: 0 0 2px 0;
-  border-bottom: 1px solid #ffffff;
-  width: max-content;
-  font-size: 32px;
+.contact-us .container form span {
+  text-align: left;
+  width: 100%;
 }
 
 .contact-us .container form input,
@@ -149,6 +142,18 @@ textarea {
   color: #ffffff;
   width: 100%;
   margin-bottom: 10px;
+}
+
+.contact-us .container h1 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 28px 0;
+  padding: 0 0 2px 0;
+  border-bottom: 1px solid #ffffff;
+  width: max-content;
+  font-size: 32px;
 }
 
 .contact-us .container .follow-us .icons {
