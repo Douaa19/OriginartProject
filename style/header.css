@@ -1,127 +1,105 @@
+@import "./theme.css";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Bahnschrift';
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bahnschrift";
+  scroll-behavior: smooth;
 }
 
 header {
-    width: 100%;
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 10px 0;
 }
 
 header nav img {
-    width: 3%;
+  width: 3%;
 }
 
 header nav .link a {
-    text-decoration: none;
-    color: #FFFFFF;
-    letter-spacing: 2px;
+  text-decoration: none;
+  color: var(--text-color);
+  letter-spacing: 2px;
 }
 
 header nav .link {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 header nav .link a:hover {
-    border-bottom: #FFFFFF 2px solid;
-    padding-bottom: 2px;
+  border-bottom: var(--text-color) 2px solid;
+  padding-bottom: 2px;
 }
 
 header .hero-header {
-    width: 100%;
-    height: 90vh;
-    background-color: #1F1F1F;
-    border-top: 4px solid #FFFFFF;
-    position: relative;
+  width: 100%;
+  height: 90vh;
+  background-color: var(--background-color);
+  border-top: 4px solid var(--text-color);
+  position: relative;
 }
 
-.scrolled-images{
-    display:flex;
-    overflow:hidden;
-    height: 100%;
-    position:relative;
-    width: 100%;
+.scrolled-images {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
 
 marquee {
-    width: fit-content;
-    position:absolute;
-    height: inherit;
+  width: fit-content;
+  position: absolute;
+  height: inherit;
 }
 
 header .hero-header .shadow-section {
-    background-color: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
+  background-color: var(--background-color);
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 
 header .hero-header .content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 42vh;
-    color: #FFFFFF;
-    font-size: 38px;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 42vh;
+  color: var(--text-color);
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 .quotes {
   display: none;
 }
 
-/* 
-THEME
------------ 
-*/
-
-body {
-  --accent-color: #F0A500;
-  --background-color: white;
-  --text-color: black;
-  --button-text-color: var(--background-color);
-  --transition-delay: 1s;
-
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
-
-body.dark {
-  --accent-color: #f82b79;
-  --background-color: #1F1F1F;
-  --text-color: rgb(177, 21, 21);
-  --button-text-color: #a91919;
-}
-
-
-
-@media (max-width:650px) {
-
-    header .hero-header .content {
-        font-size: 28px;
-    }
-
+@media (max-width: 650px) {
+  header .hero-header .content {
+    font-size: 28px;
+  }
 }
