@@ -68,6 +68,7 @@ textarea {
   margin-bottom: 26px;
   border: 1px solid #ffffff;
   outline: none;
+  text-transform: capitalize;
 }
 
 .contact-us .container .form form .btn {
