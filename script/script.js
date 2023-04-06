@@ -1,34 +1,30 @@
-let navLogo = document.getElementById("nav-logo");
-let footerBigLogo = document.getElementById("footer-big-logo");
-let footerSmallLogo = document.getElementById("footer-small-logo");
-
 document.querySelector(".theme-toggle-button").addEventListener("click", () => {
   document.body.classList.toggle("dark");
+  document.getElementById("theme").classList.toggle("fa-sun");
+  document.getElementById("theme").classList.toggle("fa-moon");
   changeImg();
-  document.getElementById("moon").style.display = "none";
-  document.createElement('i');
 });
 
 const changeImg = () => {
-  let whiteNavLogo = "./images/Or logo-white.svg";
-  let blackNavLogo = "./images/Or logo-Black.svg";
-  let whiteFooterBigLogo = "./images/Originart logo-white";
-  let blackFooterBigLogo = "./images/Logo originart -01-Black.svg";
-  let whiteFooterSmallLogo = whiteNavLogo;
-  let blackFooterSmallLogo = blackNavLogo;
+  let imgNav = document.getElementById("nav-logo");
+  let footerSmallLogo = document.getElementById("footer-small-logo");
+  let footerBigLogo = document.getElementById("footer-big-logo");
 
-  // Nav Logo
-  navLogo.src = navLogo.src === blackNavLogo ? whiteNavLogo : blackNavLogo;
+  if (imgNav.src.endsWith("Or-logo-white.svg")) {
+    imgNav.setAttribute("src", "./images/Or-logo-Black.svg");
+  } else {
+    imgNav.setAttribute("src", "./images/Or-logo-white.svg");
+  }
 
-  // Footer Big Logo
-  footerBigLogo.src =
-    navLogo.src === blackFooterBigLogo
-      ? whiteFooterBigLogo
-      : blackFooterBigLogo;
+  if (footerSmallLogo.src.endsWith("Or-logo-white.svg")) {
+    footerSmallLogo.setAttribute("src", "./images/Or-logo-Black.svg");
+  } else {
+    footerSmallLogo.setAttribute("src", "./images/Or-logo-white.svg");
+  }
 
-  // Footer Small Logo
-  footerSmallLogo.src =
-    footerSmallLogo.src === blackFooterSmallLogo
-      ? whiteFooterSmallLogo
-      : blackFooterSmallLogo;
+  if (footerBigLogo.src.endsWith("Originart-logo-white.svg")) {
+    footerBigLogo.setAttribute("src", "./images/Logo-originart-Black.svg");
+  } else {
+    footerBigLogo.setAttribute("src", "./images/Originart-logo-white.svg");
+  }
 };
