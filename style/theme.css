@@ -1,6 +1,6 @@
 body {
   --accent-color: #000000;
-  --background-color: #ccc;
+  --background-color: #ffffff;
   --text-color: rgb(0, 0, 0);
   --button-text-color: var(--background-color);
   --transition-delay: 1s;

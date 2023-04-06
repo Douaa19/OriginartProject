@@ -16,7 +16,7 @@
 <body class="dark">
   <header class="container">
     <nav>
-      <img src="./images/Or logo-white.svg" alt="">
+      <img id="nav-logo" src="./images/Or logo-white.svg" alt="">
       <div class="link">
         <a href="#contact-us">Contact</a>
         <div class="theme-toggle-button">
@@ -135,14 +135,15 @@
   <footer>
     <div class="container">
       <div class="part-one">
-        <img src="./images/Originart logo-white.svg" alt="">
+        <img id="footer-big-logo" src="./images/Originart logo-white.svg" alt="">
         <p>Originality sets you free from routine</p>
       </div>
       <div class="part-two">
-        <img src="./images/Or logo-white.svg" alt="">
+        <img id="footer-small-logo" src="./images/Or logo-white.svg" alt="">
         <div class="copy-right">
           <span>©&nbsp</span>
           <span>2023</span>
+          <span><i class="fa-solid fa-brightness icon"></i></span>
         </div>
       </div>
     </div>
