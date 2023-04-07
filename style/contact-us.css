@@ -121,7 +121,7 @@ textarea {
   height: 2px;
   width: 0;
   background: #ffffff;
-  box-shadow: -1px -1px 5px 0px var(--text-color), 7px 7px 20px 0px #0003,
+  box-shadow: -1px -1px 5px 0px #ccc, 7px 7px 20px 0px #0003,
     4px 4px 5px 0px #0002;
   transition: 400ms ease all;
 }

@@ -33,6 +33,9 @@ header nav .link a {
   text-decoration: none;
   color: var(--text-color);
   letter-spacing: 2px;
+  transition: 0.5s;
+  transform: scale(1);
+  transform: scale(1.1);
 }
 
 header nav .link {

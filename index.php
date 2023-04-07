@@ -16,62 +16,60 @@
 <body class="dark">
   <header class="container">
     <nav>
-      <img id="nav-logo" src="./images/Or logo-white.svg" alt="">
+      <img id="nav-logo" src="./images/Or-logo-white.svg" alt="" />
       <div class="link">
         <a href="#contact-us">Contact</a>
-        <div class="theme-toggle-button">
-          <i class="fa-solid fa-brightness icon" id="sun"></i>
-          <i class="fa-light fa-moon icon" id="moon"></i>
-        </div>
+        <button class="theme-toggle-button">
+          <i class="fa-regular fa-sun icon" id="theme"></i>
+        </button>
       </div>
     </nav>
     <div class="hero-header">
       <div class="scrolled-images">
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%;">
-          <img src="./images/Heritages .png" style="width: 45%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%">
+          <img src="./images/Heritages .png" style="width: 45%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 10%;">
-          <img src="./images/blfan.png" style="width: 35%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 10%">
+          <img src="./images/blfan.png" style="width: 35%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 2%;">
-          <img src="./images/0P8A9749.JPG" style="width: 30%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 2%">
+          <img src="./images/0P8A9749.JPG" style="width: 30%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 80%;">
-          <img src="./images/18_12.jpg" style="width: 100%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 80%">
+          <img src="./images/18_12.jpg" style="width: 100%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 50%;">
-          <img src="./images/AFFICHE.jpg" style="width: 55%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 50%">
+          <img src="./images/AFFICHE.jpg" style="width: 55%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 67%;">
-          <img src="./images/7O4A0376.JPG" style="width: 90%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 67%">
+          <img src="./images/7O4A0376.JPG" style="width: 90%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 70%;">
-          <img src="./images/artwork.png" style="width: 100%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 70%">
+          <img src="./images/artwork.png" style="width: 100%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 45%;">
-          <img src="./images/Copie de Post birthday 6 nov.jpg" style="width: 50%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 45%">
+          <img src="./images/Copie de Post birthday 6 nov.jpg" style="width: 50%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 42%;">
-          <img src="./images/Hikayat.png" style="width: 35%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 42%">
+          <img src="./images/Hikayat.png" style="width: 35%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 22%;">
-          <img src="./images/MAC.png" style="width: 35%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 22%">
+          <img src="./images/MAC.png" style="width: 35%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 15%;">
-          <img src="./images/opm.jpg" style="width: 58%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 15%">
+          <img src="./images/opm.jpg" style="width: 58%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 1%;">
-          <img src="./images/poster Qrayathon 3 .jpg" style="width: 30%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 1%">
+          <img src="./images/poster Qrayathon 3 .jpg" style="width: 30%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 12%;">
-          <img src="./images/agadir cultures.png" style="width: 32%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 12%">
+          <img src="./images/agadir cultures.png" style="width: 32%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 20%;">
-          <img src="./images/33-02.jpg" style="width: 50%;" alt="Natural" />
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 20%">
+          <img src="./images/33-02.jpg" style="width: 50%" alt="Natural" />
         </marquee>
       </div>
-      <div class="shadow-section">
-      </div>
+      <div class="shadow-section"></div>
       <div class="content">
         <h2 class="quotes">We communicate your values</h2>
         <h2 class="quotes">We assert your identity</h2>
@@ -109,7 +107,9 @@
                 <textarea name="message" id="message" cols="35" rows="5" placeholder="message"></textarea>
               </div>
               <div class="btn">
-                <button type="submit" name="submit" class="custom-btn btn-5">submit</button>
+                <button type="submit" name="submit" class="custom-btn btn-5">
+                  submit
+                </button>
               </div>
             </form>
           </div>
@@ -119,7 +119,6 @@
             <span> & bring your ideas to life!</span>
           </div>
         </div>
-
       </div>
       <div class="follow-us">
         <h1>follow us</h1>
@@ -135,11 +134,11 @@
   <footer>
     <div class="container">
       <div class="part-one">
-        <img id="footer-big-logo" src="./images/Originart logo-white.svg" alt="">
+        <img id="footer-big-logo" src="./images/Originart-logo-white.svg" alt="" />
         <p>Originality sets you free from routine</p>
       </div>
       <div class="part-two">
-        <img id="footer-small-logo" src="./images/Or logo-white.svg" alt="">
+        <img id="footer-small-logo" src="./images/Or-logo-white.svg" alt="" />
         <div class="copy-right">
           <span>©&nbsp</span>
           <span>2023</span>
@@ -168,6 +167,5 @@
     })();
   </script>
 </body>
-
 
 </html>
