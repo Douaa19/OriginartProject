@@ -30,6 +30,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
+  grid-gap: 2em;
   width: 100%;
 }
 
@@ -188,4 +189,22 @@ textarea {
   font-size: 18px;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+@media (max-width: 1160px) {
+  .contact-us .container .form .content .text {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 880px) {
+  .contact-us .container .form .content .text {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 810px) {
+  .contact-us .container .form .content .text {
+    font-size: 24px;
+  }
 }
