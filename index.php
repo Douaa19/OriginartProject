@@ -27,7 +27,7 @@
     <div class="hero-header">
       <div class="scrolled-images">
         <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 62%">
-          <img src="./images/Heritages .png" style="width: 45%" alt="Natural" />
+          <img src="./images/Heritages.png" style="width: 45%" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="5" style="left: 10%">
           <img src="./images/blfan.png" style="width: 35%" alt="Natural" />
@@ -60,7 +60,7 @@
           <img src="./images/opm.jpg" style="width: 58%" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 1%">
-          <img src="./images/poster Qrayathon 3 .jpg" style="width: 30%" alt="Natural" />
+          <img src="./images/poster Qrayathon 3.jpg" style="width: 30%" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 12%">
           <img src="./images/agadir cultures.png" style="width: 32%" alt="Natural" />
