@@ -52,6 +52,7 @@
   flex-flow: column;
   line-height: 2;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .contact-us .container form span {
@@ -194,6 +195,20 @@ textarea {
 @media (max-width: 1160px) {
   .contact-us .container .form .content .text {
     font-size: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-us .container .form .content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .contact-us .container .form .content .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

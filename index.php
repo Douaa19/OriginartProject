@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="./style/footer.css" />
   <link rel="stylesheet" href="./style/theme.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <title>Document</title>
+  <link rel="icon" href="images/Or-logo-Black.svg" />
+  <title>Originart</title>
 </head>
 
 <body class="dark">
