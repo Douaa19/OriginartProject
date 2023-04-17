@@ -124,10 +124,11 @@
       <div class="follow-us">
         <h1>follow us</h1>
         <div class="icons">
-          <a href="https://www.facebook.com/0riginart"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
-          <a href="https://www.instagram.com/0rigin_art"><i class="fab fa-3x fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/0riginart/"><i class="fab fa-3x fa-linkedin"></i></a>
-          <a href="https://www.youtube.com/@0riginart/"><i class="fa-brands fa-3x fa-youtube"></i></a>
+          <a href="https://www.facebook.com/0riginart" target="_blank"><i
+              class="fa-brands fa-3x fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/0rigin_art" target="_blank"><i class="fab fa-3x fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/0riginart/" target="_blank"><i class="fab fa-3x fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/@0riginart/" target="_blank"><i class="fa-brands fa-3x fa-youtube"></i></a>
         </div>
       </div>
     </div>
