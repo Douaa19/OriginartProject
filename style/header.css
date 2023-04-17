@@ -33,8 +33,7 @@ header nav .link a {
   text-decoration: none;
   color: var(--text-color);
   letter-spacing: 2px;
-  transition: 0.5s;
-  transform: scale(1);
+  transition: 0.2s;
   transform: scale(1.1);
 }
 
@@ -105,13 +104,19 @@ header .hero-header .content {
     width: 28px;
   }
 }
+
 @media (max-width: 650px) {
   header .hero-header .content {
     font-size: 28px;
   }
 }
-@media (max-width: 650px) {
-  header nav img {
-    width: 28px;
+
+@media (max-width: 390px) {
+  header .hero-header .content {
+    font-size: 20px;
+  }
+
+  header nav .link {
+    font-size: 12px;
   }
 }
