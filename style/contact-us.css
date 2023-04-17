@@ -203,6 +203,10 @@ textarea {
 }
 
 @media (max-width: 900px) {
+  .contact-us .container {
+    padding-left: 0;
+  }
+
   .contact-us .container .form .content {
     display: flex;
     flex-direction: column-reverse;
@@ -249,7 +253,6 @@ textarea {
   .contact-us .container .follow-us h1 {
     font-size: 18px;
     margin: 0 0 12px 0;
-    padding: 0 0 2px 0;
   }
 
   .btn-5 {
