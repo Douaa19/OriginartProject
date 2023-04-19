@@ -14,10 +14,10 @@
   <title>Originart</title>
 </head>
 
-<body class="dark">
+<body>
   <header class="container">
     <nav>
-      <img id="nav-logo" src="./images/Or-logo-white.svg" alt="" />
+      <img id="nav-logo" src="./images/Or-logo-Black.svg" alt="" />
       <div class="link">
         <a href="#contact-us">Contact</a>
         <button class="theme-toggle-button">
@@ -48,9 +48,6 @@
         <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 70%">
           <img src="./images/artwork.png" style="width: 100%" alt="Natural" />
         </marquee>
-        <marquee behavior="scroll" direction="up" scrollamount="2" style="left: 45%">
-          <img src="./images/Copie de Post birthday 6 nov.jpg" style="width: 50%" alt="Natural" />
-        </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 42%">
           <img src="./images/Hikayat.png" style="width: 35%" alt="Natural" />
         </marquee>
@@ -65,6 +62,9 @@
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="4" style="left: 12%">
           <img src="./images/agadir cultures.png" style="width: 32%" alt="Natural" />
+        </marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 55%">
+          <img src="./images/Copie de Post birthday 6 nov.jpg" style="width: 55%" alt="Natural" />
         </marquee>
         <marquee behavior="scroll" direction="up" scrollamount="3" style="left: 20%">
           <img src="./images/33-02.jpg" style="width: 50%" alt="Natural" />
@@ -136,11 +136,11 @@
   <footer>
     <div class="container">
       <div class="part-one">
-        <img id="footer-big-logo" src="./images/Originart-logo-white.svg" alt="" />
+        <img id="footer-big-logo" src="./images/Logo-originart-Black.svg" alt="" />
         <p>Originality sets you free from routine</p>
       </div>
       <div class="part-two">
-        <img id="footer-small-logo" src="./images/Or-logo-white.svg" alt="" />
+        <img id="footer-small-logo" src="./images/Or-logo-Black.svg" alt="" />
         <div class="copy-right">
           <span>©&nbsp</span>
           <span>2023</span>

@@ -10,21 +10,21 @@ const changeImg = () => {
   let footerSmallLogo = document.getElementById("footer-small-logo");
   let footerBigLogo = document.getElementById("footer-big-logo");
 
-  if (imgNav.src.endsWith("Or-logo-white.svg")) {
-    imgNav.setAttribute("src", "./images/Or-logo-Black.svg");
-  } else {
+  if (imgNav.src.endsWith("Or-logo-Black.svg")) {
     imgNav.setAttribute("src", "./images/Or-logo-white.svg");
+  } else {
+    imgNav.setAttribute("src", "./images/Or-logo-Black.svg");
   }
 
-  if (footerSmallLogo.src.endsWith("Or-logo-white.svg")) {
-    footerSmallLogo.setAttribute("src", "./images/Or-logo-Black.svg");
-  } else {
+  if (footerSmallLogo.src.endsWith("Or-logo-Black.svg")) {
     footerSmallLogo.setAttribute("src", "./images/Or-logo-white.svg");
+  } else {
+    footerSmallLogo.setAttribute("src", "./images/Or-logo-Black.svg");
   }
 
-  if (footerBigLogo.src.endsWith("Originart-logo-white.svg")) {
-    footerBigLogo.setAttribute("src", "./images/Logo-originart-Black.svg");
-  } else {
+  if (footerBigLogo.src.endsWith("Logo-originart-Black.svg")) {
     footerBigLogo.setAttribute("src", "./images/Originart-logo-white.svg");
+  } else {
+    footerBigLogo.setAttribute("src", "./images/Logo-originart-Black.svg");
   }
 };

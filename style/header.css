@@ -1,10 +1,15 @@
 @import "./theme.css";
 
+@font-face {
+  font-family: Bahnschrift;
+  src: url("../fonts/BAHNSCHRIFT.TTF");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Bahnschrift";
+  font-family: Bahnschrift;
   scroll-behavior: smooth;
 }
 
