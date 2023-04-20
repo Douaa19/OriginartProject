@@ -1,7 +1,7 @@
 document.querySelector(".theme-toggle-button").addEventListener("click", () => {
   document.body.classList.toggle("dark");
-  document.getElementById("theme").classList.toggle("fa-sun");
   document.getElementById("theme").classList.toggle("fa-moon");
+  document.getElementById("theme").classList.toggle("fa-sun");
   changeImg();
 });
 
